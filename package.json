@@ -1,0 +1,28 @@
+{
+  "name": "npm_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vechorkina/npm_practice.git"
+  },
+  "author": "Tanya Vechorkina <artdeco.t@i.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vechorkina/npm_practice/issues"
+  },
+  "homepage": "https://github.com/Vechorkina/npm_practice#readme",
+  "dependencies": {
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}
